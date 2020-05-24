@@ -56,7 +56,7 @@ namespace AddProducts
             {
                 endpoints.MapControllerRoute(
                    name: "default",
-                   pattern: "{controller=AddProductsItem}/{action=Index}");
+                   pattern: "{controller=AddProductsItem}/{action=Index}/{id?}");
             });
         }
     }

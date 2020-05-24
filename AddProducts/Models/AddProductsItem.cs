@@ -9,7 +9,7 @@ namespace AddProducts.Models
     public class AddProductsItem
     {
         public int Id { get; set; }
-        [Required(ErrorMessage = "Task Required")]
+        [Required(ErrorMessage = "Title Required")]
         public string Title { get; set; }
         public string Description { get; set; }
         public string Price { get; set; }
